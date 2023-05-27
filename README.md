@@ -11,10 +11,22 @@ El caso de estudio planteado consiste en desarrollar una aplicación transaccion
 El uso de Blockchain en este dominio de datos brinda importantes beneficios en términos de seguridad y confiabilidad. Al utilizar una estructura de cadena de bloques, se garantiza la integridad de los registros, ya que cualquier modificación en un bloque afectará a todos los bloques posteriores, asegurando la inmutabilidad de los datos. Además, al emplear algoritmos criptográficos para generar y verificar los códigos hash de los bloques, se proporciona una capa adicional de seguridad. Esto resulta especialmente relevante en transacciones financieras y registro de votos, donde la integridad y la confidencialidad son fundamentales.
 
 ## Estructura de datos del Blockchain y estrategia de integridad
-La estructura de datos del Blockchain se compone de una lista de bloques de registros ordenados cronológicamente. Cada bloque contiene información y un código hash generado mediante un algoritmo criptográfico a partir de los datos del bloque. El código hash también sirve para verificar la integridad del bloque. Para asegurar la integridad de los bloques, se utiliza una estrategia de "proof of work", donde se realiza un cálculo computacionalmente costoso para añadir un nuevo bloque a la cadena. Esto dificulta la manipulación de los bloques existentes y garantiza la seguridad del Blockchain.
+- Explicación:
+
+La estructura de datos del Blockchain se compone de una lista de bloques de registros ordenados cronológicamente. Cada bloque contiene información y un código hash generado mediante un algoritmo criptográfico a partir de los datos del bloque.
+
+- Estrategia para asegurar la integridad:
+
+El código hash también sirve para verificar la integridad del bloque. Para asegurar la integridad de los bloques, se utiliza una estrategia de "proof of work", donde se realiza un cálculo computacionalmente costoso para añadir un nuevo bloque a la cadena. Esto dificulta la manipulación de los bloques existentes y garantiza la seguridad del Blockchain.
+
+- Implementación del proof of work:
 
 ## Estructuras de datos utilizadas para la indexación
 Se utilizarán varias estructuras de datos para implementar los diferentes criterios de búsqueda requeridos. Las estructuras de datos utilizadas serán Hash, AVL, Heap, BTree, B+Tree y Trie. Cada una de estas estructuras se adaptará según los criterios de búsqueda, como igualdad, rangos, prefijos y patrones de búsqueda.
+- Insertar:
+- Buscar:
+- Tabla comparativa de Blockain sin índices vs con índices
+
 
 ## Análisis de complejidad y tabla comparativa
 Se realizará un análisis de la complejidad en notación Big O de los métodos del Blockchain, principalmente los métodos de inserción y búsqueda. Esto permitirá evaluar el rendimiento y la eficiencia de la aplicación. Además, se realizará una tabla comparativa que mostrará el rendimiento del Blockchain con índices y sin índices, demostrando las ventajas de utilizar estructuras de datos para optimizar las búsquedas.
@@ -25,6 +37,7 @@ La implementación de una aplicación transaccional basada en Blockchain proporc
 ## Referencias bibliográficas
 - Video: "Introduction to Blockchain and Proof of Work" - https://www.youtube.com/watch?v=C5NZnD12yjg
 - Brownworth, A. "Blockchain Demo" - https://andersbrownworth.com/blockchain/
+- Video: "Instalación de wxWidgets" - https://www.youtube.com/watch?v=v_v9HtaoPRs
 
 ## Actividades concluidas por cada integrante del grupo
 - Campoverde San Martín, Yacira Nicol

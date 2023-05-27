@@ -28,11 +28,13 @@ Se utilizarán varias estructuras de datos para implementar los diferentes crite
 Se realizará un análisis de la complejidad en notación Big O de los métodos del Blockchain, principalmente los métodos de inserción y búsqueda. Esto permitirá evaluar el rendimiento y la eficiencia de la aplicación. Además, se realizará una tabla comparativa que mostrará el rendimiento del Blockchain con índices y sin índices, demostrando las ventajas de utilizar estructuras de datos para optimizar las búsquedas.
 
 - Insertar:
+
 Validación del bloque: Antes de agregar un bloque, se deben realizar diversas validaciones para asegurar la integridad y la consistencia de la cadena. Esto puede incluir la verificación de firmas digitales, comprobación de transacciones duplicadas, verificación de pruebas de trabajo (proof-of-work) u otros mecanismos de consenso. La complejidad de estas validaciones puede variar dependiendo de los algoritmos y mecanismos de consenso utilizados, pero generalmente tienen una complejidad de O(1) o O(log n), donde "n" representa el tamaño de la cadena existente.
 
 Agregar el bloque: Una vez que el bloque ha pasado todas las validaciones, se agrega a la cadena. En un Blockchain típico basado en una estructura de lista enlazada, la inserción de un nuevo bloque implica simplemente agregarlo al final de la cadena existente. Esto tiene una complejidad de O(1), ya que solo implica actualizar los punteros del bloque anterior y establecer un nuevo puntero para el bloque recién agregado.
 
 - Buscar:
+- 
  La complejidad de búsqueda sería O(n), donde "n" es el número total de bloques en el Blockchain.
 
 - Tabla comparativa de Blockain sin índices vs con índices

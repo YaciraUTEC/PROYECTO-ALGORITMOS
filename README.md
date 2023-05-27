@@ -27,7 +27,9 @@ La implementación de una aplicación transaccional basada en Blockchain proporc
 - Brownworth, A. "Blockchain Demo" - https://andersbrownworth.com/blockchain/
 
 ## Actividades concluidas por cada integrante del grupo
-- [Nombre del integrante 1]: [Actividades realizadas]
-- [Nombre del integrante 2]: [Actividades realizadas]
-- [Nombre del integrante 3]: [Actividades realizadas]
-- [Nombre del integrante 4]: [Actividades realizadas]
+- Campoverde San Martín, Yacira Nicol
+- Jaramillo Alfaro, Michel Marcelo
+- Pajuelo Reyes, César Eduardo:
+- Pinedo Espinoza, Jose Eddison: 
+- Rodriguez Gutierrez, Gonzalo Alonso: 
+

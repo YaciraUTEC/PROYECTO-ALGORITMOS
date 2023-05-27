@@ -23,14 +23,14 @@ El código hash también sirve para verificar la integridad del bloque. Para ase
 
 ## Estructuras de datos utilizadas para la indexación
 Se utilizarán varias estructuras de datos para implementar los diferentes criterios de búsqueda requeridos. Las estructuras de datos utilizadas serán Hash, AVL, Heap, BTree, B+Tree y Trie. Cada una de estas estructuras se adaptará según los criterios de búsqueda, como igualdad, rangos, prefijos y patrones de búsqueda.
-- Insertar:
-- Buscar:
-- Tabla comparativa de Blockain sin índices vs con índices
-
 
 ## Análisis de complejidad y tabla comparativa
 Se realizará un análisis de la complejidad en notación Big O de los métodos del Blockchain, principalmente los métodos de inserción y búsqueda. Esto permitirá evaluar el rendimiento y la eficiencia de la aplicación. Además, se realizará una tabla comparativa que mostrará el rendimiento del Blockchain con índices y sin índices, demostrando las ventajas de utilizar estructuras de datos para optimizar las búsquedas.
 
+- Insertar:
+- Buscar:
+- Tabla comparativa de Blockain sin índices vs con índices
+- 
 ## Conclusiones
 La implementación de una aplicación transaccional basada en Blockchain proporciona seguridad y confiabilidad en el dominio de datos seleccionado. El uso de una estructura de cadena de bloques y algoritmos criptográficos garantiza la integridad y la inmutabilidad de los registros. La aplicación cumple con los requerimientos establecidos y ofrece una interfaz gráfica intuitiva para los usuarios. El análisis de complejidad y la comparativa entre Blockchain con y sin índices demuestran la eficiencia de utilizar estructuras de datos para mejorar el rendimiento de las búsquedas.
 

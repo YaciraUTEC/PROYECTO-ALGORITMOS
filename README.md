@@ -8,8 +8,11 @@ El presente informe detalla el desarrollo de una aplicación transaccional de in
 El caso de estudio planteado consiste en desarrollar una aplicación con un dominio transaccional **💸RETIROS DE DINERO💸**. Esta aplicación está conformado por los siguientes campos: Cliente, Lugar, Monto, Fecha.
 
 🧍**Cliente:** Este campo representa al cliente que realiza el retiro de dinero. Puede ser el nombre del cliente o algún identificador único que lo identifique en el sistema.
+
 🏧**Lugar:** Este campo indica el lugar o la ubicación donde se realiza el retiro de dinero. Puede ser un cajero automático, una sucursal bancaria, una tienda, etc.
+
 💸**Monto:** El campo de Monto especifica la cantidad de dinero que se retira de la cuenta del cliente. Es un valor numérico que representa la cantidad en la moneda correspondiente.
+
 📅**Fecha:** Este campo registra la fecha en la que se realiza el retiro de dinero. Puede ser en formato de fecha y hora, como una cadena de texto o un objeto de fecha y hora.
 
 ## Importancia del Blockchain en el dominio de datos elegido

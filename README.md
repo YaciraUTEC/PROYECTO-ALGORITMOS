@@ -1,14 +1,19 @@
 # 💻 PROYECTO ALGORITMOS 💻
-# Informe - Desarrollo de una aplicación transaccional basada en Blockchain
+# Desarrollo de una aplicación transaccional ***RETIROS DE DINERO*** basada en Blockchain
 
 ## Introducción
 El presente informe detalla el desarrollo de una aplicación transaccional de interacción de datos utilizando una estructura de datos de cadena de bloques (Blockchain) en un solo host. Se busca garantizar la seguridad y la integridad de los registros mediante el uso de algoritmos criptográficos, así como implementar diversas estructuras de datos para permitir búsquedas eficientes y cálculos transaccionales. Además, se realizará un análisis de la complejidad de los métodos utilizados y se presentará una comparativa entre el uso de Blockchain con índices y sin índices.
 
 ## Descripción del caso de estudio
-El caso de estudio planteado consiste en desarrollar una aplicación transaccional que permita registrar diferentes tipos de transacciones, como retiros de dinero, transferencias bancarias, registro de ventas y registro de votos. Se requiere cargar los datos transaccionales desde archivos de texto y proporcionar una interfaz gráfica interactiva para ingresar nuevas transacciones, realizar búsquedas y realizar cálculos transaccionales.
+El caso de estudio planteado consiste en desarrollar una aplicación con un dominio transaccional **💸RETIROS DE DINERO💸**. Esta aplicación está conformado por los siguientes campos: Cliente, Lugar, Monto, Fecha.
+
+🧍**Cliente:** Este campo representa al cliente que realiza el retiro de dinero. Puede ser el nombre del cliente o algún identificador único que lo identifique en el sistema.
+🏧**Lugar:** Este campo indica el lugar o la ubicación donde se realiza el retiro de dinero. Puede ser un cajero automático, una sucursal bancaria, una tienda, etc.
+💸**Monto:** El campo de Monto especifica la cantidad de dinero que se retira de la cuenta del cliente. Es un valor numérico que representa la cantidad en la moneda correspondiente.
+📅**Fecha:** Este campo registra la fecha en la que se realiza el retiro de dinero. Puede ser en formato de fecha y hora, como una cadena de texto o un objeto de fecha y hora.
 
 ## Importancia del Blockchain en el dominio de datos elegido
-El uso de Blockchain en este dominio de datos brinda importantes beneficios en términos de seguridad y confiabilidad. Al utilizar una estructura de cadena de bloques, se garantiza la integridad de los registros, ya que cualquier modificación en un bloque afectará a todos los bloques posteriores, asegurando la inmutabilidad de los datos. Además, al emplear algoritmos criptográficos para generar y verificar los códigos hash de los bloques, se proporciona una capa adicional de seguridad. Esto resulta especialmente relevante en transacciones financieras y registro de votos, donde la integridad y la confidencialidad son fundamentales.
+El blockchain es una tecnología que desempeña un papel importante en el dominio transaccional de retiros de dinero, especialmente en términos de seguridad, transparencia y confianza. 
 
 ## Estructura de datos del Blockchain y estrategia de integridad
 - ***Explicación***:
@@ -48,13 +53,14 @@ Se realizará un análisis de la complejidad en notación Big O de los métodos 
 
 - ***Insertar***:
 
-Validación del bloque: Antes de agregar un bloque, se deben realizar diversas validaciones para asegurar la integridad y la consistencia de la cadena. Esto puede incluir la verificación de firmas digitales, comprobación de transacciones duplicadas, verificación de pruebas de trabajo (proof-of-work) u otros mecanismos de consenso. La complejidad de estas validaciones puede variar dependiendo de los algoritmos y mecanismos de consenso utilizados, pero generalmente tienen una complejidad de O(1) o O(log n), donde "n" representa el tamaño de la cadena existente.
+Validación del bloque: Antes de agregar un bloque, se deben realizar diversas validaciones para asegurar la integridad y la consistencia de la cadena. Esto puede incluir la verificación de firmas digitales, comprobación de transacciones duplicadas, verificación de pruebas de trabajo (proof-of-work) u otros mecanismos de consenso. La complejidad de estas validaciones puede variar dependiendo de los algoritmos y mecanismos de consenso utilizados, pero generalmente tienen una complejidad de O(1).
 
-Agregar el bloque: Una vez que el bloque ha pasado todas las validaciones, se agrega a la cadena. En un Blockchain típico basado en una estructura de lista enlazada, la inserción de un nuevo bloque implica simplemente agregarlo al final de la cadena existente. Esto tiene una complejidad de O(1), ya que solo implica actualizar los punteros del bloque anterior y establecer un nuevo puntero para el bloque recién agregado.
+Insertar bloques: O(1)
+Insertar registros: O(1)
 
 - ***Buscar***:
-
- La complejidad de búsqueda sería O(n), donde "n" es el número total de bloques en el Blockchain.
+Búsqueda por rango: n(lg(n)
+Búsqueda hash: O(1)
 
 - ***Tabla comparativa de Blockain sin índices vs con índices***
 ## Conclusiones

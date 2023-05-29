@@ -98,7 +98,7 @@ El desarrollo de una aplicación transaccional de ***retiros de dinero*** basada
 - Video: "Instalación de wxWidgets" - https://www.youtube.com/watch?v=v_v9HtaoPRs
 
 
-##✅ACTIVIDADES CONCLUIDAS POR CADA INTEGRANTE
+## ✅ACTIVIDADES CONCLUIDAS POR CADA INTEGRANTE
 - Campoverde San Martín, Yacira Nicol
 - [x] Informe
 - Jaramillo Alfaro, Michel Marcelo 

@@ -64,8 +64,13 @@ Elige una función de hash criptográfica, como ```SHA-256```, que tomará como 
 
 Una vez que se encuentra un nonce que produce un hash válido, se considera que se ha completado la Prueba de Trabajo y se agrega el bloque a la cadena.
 
+## 7️⃣ESTRUCTURA DE DATOS DE LA APLICACIÓN
 
-## 7️⃣ANÁLISIS DE COMPLEJIDAD
+### Diagrama
+
+
+
+## 8️⃣ANÁLISIS DE COMPLEJIDAD
 Se realizará un análisis de la complejidad en notación Big O de los métodos del Blockchain, principalmente los métodos de inserción y búsqueda. Esto permitirá evaluar el rendimiento y la eficiencia de la aplicación. Además, se realizará una tabla comparativa que mostrará el rendimiento del Blockchain con índices y sin índices, demostrando las ventajas de utilizar estructuras de datos para optimizar las búsquedas.
 
 BÚSQUEDA     | COMPLEJIDAD
@@ -82,16 +87,16 @@ Hash         | O(1)
 
 ## Tabla comparativa de Blockain sin índices vs con índices
 
-## 8️⃣CONCLUSIONES
+## 9️⃣CONCLUSIONES
 El desarrollo de una aplicación transaccional de ***retiros de dinero*** basada en Blockchain, con una estructura de datos adecuada y considerando la complejidad de los métodos, permite garantizar la seguridad, integridad y eficiencia en las transacciones de retiros de dinero. El uso de Blockchain en este dominio tiene un impacto significativo en la confianza, la transparencia y la eliminación de intermediarios, lo que mejora la experiencia del usuario y optimiza el proceso de retiro de dinero. El análisis de complejidad y la comparativa entre Blockchain con y sin índices demuestran la eficiencia de utilizar estructuras de datos para mejorar el rendimiento de las búsquedas.
 
-## 9️⃣REFERENCIAS BIBLIOGRÁFICAS
+## 🔟REFERENCIAS BIBLIOGRÁFICAS
 - Video: "Introduction to Blockchain and Proof of Work" - https://www.youtube.com/watch?v=C5NZnD12yjg
 - Brownworth, A. "Blockchain Demo" - https://andersbrownworth.com/blockchain/
 - Video: "Instalación de wxWidgets" - https://www.youtube.com/watch?v=v_v9HtaoPRs
 
 
-## 🔟ACTIVIDADES CONCLUIDAS POR CADA INTEGRANTE
+## ACTIVIDADES CONCLUIDAS POR CADA INTEGRANTE
 - Campoverde San Martín, Yacira Nicol
 - [x] Informe
 - Jaramillo Alfaro, Michel Marcelo 

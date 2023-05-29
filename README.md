@@ -41,34 +41,28 @@ El código hash también sirve para verificar la integridad del bloque. Para ase
 
 ## 6️⃣IMPLEMENTACIÓN DE  PROOF OF WORK
 
-> Define los parámetros del algoritmo 
+El algoritmo de Prueba de Trabajo (Proof of Work, PoW) es utilizado en sistemas basados en Blockchain para asegurar la integridad y seguridad de la red.
 
-1. Dificultad (target):
-  - Determina la cantidad de ceros consecutivos requeridos en el hash del bloque para que se considere válido. Cuanto mayor sea la dificultad, más tiempo llevará encontrar un hash válido.
-2. Bloque de datos: 
-  - Los datos que se van a incluir en el bloque, como transacciones u otra información relevante.
-3. Nonce: 
-  - Un número arbitrario que se incrementará durante el proceso de minería para obtener diferentes hashes.
-            
+### *Define los parámetros del algoritmo:*
 
+- Dificultad (target): Determina la cantidad de ceros consecutivos requeridos en el hash del bloque para que se considere válido. Cuanto mayor sea la dificultad, más tiempo llevará encontrar un hash válido.
+- Bloque de datos: Los datos que se van a incluir en el bloque, como transacciones u otra información relevante.
+- Nonce: Un número arbitrario que se incrementará durante el proceso de minería para obtener diferentes hashes.
 
-> Crea una función de hash:
+### *Crea una función de hash:*
+Elige una función de hash criptográfica, como ```SHA-256```, que tomará como entrada los **datos del bloque** y el **nonce**, y generará un **hash**.
 
-Elige una función de hash criptográfica, como SHA-256, que tomará como entrada los datos del bloque y el nonce, y generará un hash.
+### *Minería del bloque:*
 
+- Inicializa el nonce en 0.
+- Crea un bucle infinito:
+  - Concatena los datos del bloque y el nonce.
+  - Calcula el hash aplicando la función de hash al bloque y al nonce.
+  - Verifica si el hash cumple con la dificultad establecida (por ejemplo, si los primeros "n" caracteres son ceros).
+  - Si el hash cumple con la dificultad, se ha encontrado una solución válida. Sal del bucle.
+  - Si el hash no cumple con la dificultad, incrementa el nonce en 1 y repite el bucle.
 
-> Minería del bloque:
-
-1. Inicializa el nonce en 0.
-2. Crea un bucle infinito:
-   - Concatena los datos del bloque y el nonce.
-   - Calcula el hash aplicando la función de hash al bloque y al nonce.
-   - Verifica si el hash cumple con la dificultad establecida (por ejemplo, si los primeros "n" caracteres son ceros).
-   - Si el hash cumple con la dificultad, se ha encontrado una solución válida. Sal del bucle.
-   - Si el hash no cumple con la dificultad, incrementa el nonce en 1 y repite el bucle.
-
-> Una vez que se encuentra un nonce que produce un hash válido, se considera que se ha completado la Prueba de Trabajo y se agrega el bloque a la cadena.
-
+Una vez que se encuentra un nonce que produce un hash válido, se considera que se ha completado la Prueba de Trabajo y se agrega el bloque a la cadena.
 
 
 ## 7️⃣ANÁLISIS DE COMPLEJIDAD
@@ -95,6 +89,7 @@ El desarrollo de una aplicación transaccional de ***retiros de dinero*** basada
 - Video: "Introduction to Blockchain and Proof of Work" - https://www.youtube.com/watch?v=C5NZnD12yjg
 - Brownworth, A. "Blockchain Demo" - https://andersbrownworth.com/blockchain/
 - Video: "Instalación de wxWidgets" - https://www.youtube.com/watch?v=v_v9HtaoPRs
+
 
 ## 🔟ACTIVIDADES CONCLUIDAS POR CADA INTEGRANTE
 - Campoverde San Martín, Yacira Nicol

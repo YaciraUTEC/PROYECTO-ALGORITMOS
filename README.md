@@ -65,8 +65,10 @@ Elige una función de hash criptográfica, como ```SHA-256```, que tomará como 
 Una vez que se encuentra un nonce que produce un hash válido, se considera que se ha completado la Prueba de Trabajo y se agrega el bloque a la cadena.
 
 ## 7️⃣ESTRUCTURA DE DATOS DE LA APLICACIÓN
-
-### Diagrama
+<image
+  src="/DIAGRAMA.png"
+  alt="Descripción de la imagen"
+  caption="Diagrama de la Aplicación Transaccional">
 
 
 
@@ -96,7 +98,7 @@ El desarrollo de una aplicación transaccional de ***retiros de dinero*** basada
 - Video: "Instalación de wxWidgets" - https://www.youtube.com/watch?v=v_v9HtaoPRs
 
 
-## ACTIVIDADES CONCLUIDAS POR CADA INTEGRANTE
+## 1️⃣1️⃣ACTIVIDADES CONCLUIDAS POR CADA INTEGRANTE
 - Campoverde San Martín, Yacira Nicol
 - [x] Informe
 - Jaramillo Alfaro, Michel Marcelo 

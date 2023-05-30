@@ -21,7 +21,9 @@ private:
 public:
     void addBlock(Block& block);
     void printBlockchain() const;
-   
+    vector<record> search(const string& cliente) ;
+    template <typename TV>
+    vector<record> range_search(TV lower, TV upper);
 };
 
 void Blockchain::addBlock(Block& block) {
@@ -60,5 +62,13 @@ void Blockchain::printBlockchain() const {
     }
 }
 
+vector<record> Blockchain::search(const string& cliente) {
+    return clientHash.find(cliente);
+}
+
+template <typename TV>
+vector<record> Blockchain::range_search(TV lower, TV upper){
+    return avlTree.searchRange(lower, upper);
+}
 
 #endif // BLOCKCHAIN_H

@@ -18,4 +18,11 @@ struct NodeBT {
     }
 };
 
+template <typename T>
+struct NodeFW {
+    T data;
+    NodeFW* next;
+
+    NodeFW(const T& value) : data(value), next(nullptr) {}
+};
 #endif //BLOCKCHIAN_NODE_H

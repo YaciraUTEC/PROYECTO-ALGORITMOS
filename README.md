@@ -101,12 +101,18 @@ El desarrollo de una aplicación transaccional de ***retiros de dinero*** basada
 ## ✅ACTIVIDADES CONCLUIDAS POR CADA INTEGRANTE
 - Campoverde San Martín, Yacira Nicol
 - [x] Informe
+- [x] Implementación Blockachain
+- [x] Implementación Chainhash
 - Jaramillo Alfaro, Michel Marcelo 
-- [x] Implementación
+- [x] Implementación Main
+- [x] Implementación Reader
 - Pajuelo Reyes, César Eduardo:
-- [x] Implementación
+- [x] Implementación Block
+- [x] Implementación Record  
 - Pinedo Espinoza, Jose Eddison:
-- [x] Implementación
+- [x] Implementación Avl
 - Rodriguez Gutierrez, Gonzalo Alonso: 
-- [x] Implementación
+- [x] Implementación Forward
+- [x] Implementación Node
+- [x] Modificación en el Blockchain 
 

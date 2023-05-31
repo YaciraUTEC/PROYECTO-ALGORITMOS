@@ -111,8 +111,10 @@ El desarrollo de una aplicación transaccional de ***retiros de dinero*** basada
 - [x] Implementación Record  
 - Pinedo Espinoza, Jose Eddison:
 - [x] Implementación Avl
+- [x] Implementación Node
 - Rodriguez Gutierrez, Gonzalo Alonso: 
 - [x] Implementación Forward
 - [x] Implementación Node
-- [x] Modificación en el Blockchain 
+- [x] Modificación en el Blockchain
+- [x] Generación de Data100.csv
 
